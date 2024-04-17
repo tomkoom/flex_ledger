@@ -1,0 +1,14 @@
+{
+  "icrc1_ledger": {
+    "ic": "qn35o-kiaaa-aaaag-aciiq-cai",
+    "local": "qn35o-kiaaa-aaaag-aciiq-cai"
+  },
+  "minter": {
+    "ic": "ci35a-cqaaa-aaaag-acmvq-cai",
+    "local": "ci35a-cqaaa-aaaag-acmvq-cai"
+  },
+  "vault": {
+    "ic": "qk232-hqaaa-aaaag-aciia-cai",
+    "local": "qk232-hqaaa-aaaag-aciia-cai"
+  }
+}

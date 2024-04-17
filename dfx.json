@@ -1,0 +1,25 @@
+{
+  "canisters": {
+    "icrc1_ledger": {
+      "type": "custom",
+      "candid": "https://raw.githubusercontent.com/dfinity/ic/02dcaf3ccdfe46bd959d683d43c5513d37a1420d/rs/rosetta-api/icrc1/ledger/ledger.did",
+      "wasm": "https://download.dfinity.systems/ic/02dcaf3ccdfe46bd959d683d43c5513d37a1420d/canisters/ic-icrc1-ledger.wasm.gz"
+    },
+    "minter": {
+      "main": "src/minter.mo",
+      "type": "motoko"
+    },
+    "vault": {
+      "main": "src/vault.mo",
+      "type": "motoko"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
