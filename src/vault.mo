@@ -6,7 +6,7 @@ actor {
   let ledger = actor (C.ledgerId) : Ledger.Self;
 
   public shared ({ caller }) func send(owner : Principal, amount : Nat) : async Ledger.Result {
-    assert (caller == Principal.fromText(C.admin1) or caller == Principal.fromText(C.admin2));
+    assert (caller == Principal.fromText(C.admin1) or caller == Principal.fromText(C.nodeAdmin1) or caller == Principal.fromText(C.nodeAdmin2));
 
     let to : Ledger.Account = {
       owner;
