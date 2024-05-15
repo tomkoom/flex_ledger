@@ -12,6 +12,18 @@
     "vault": {
       "main": "src/vault.mo",
       "type": "motoko"
+    },
+    "fund": {
+      "main": "src/fund.mo",
+      "type": "motoko"
+    },
+    "fund_promo": {
+      "main": "src/fund_promo.mo",
+      "type": "motoko"
+    },
+    "treasury": {
+      "main": "src/treasury.mo",
+      "type": "motoko"
     }
   },
   "defaults": {

@@ -1,14 +1,20 @@
 {
   "icrc1_ledger": {
-    "ic": "qn35o-kiaaa-aaaag-aciiq-cai",
-    "local": "qn35o-kiaaa-aaaag-aciiq-cai"
+    "ic": "qn35o-kiaaa-aaaag-aciiq-cai"
   },
   "minter": {
-    "ic": "ci35a-cqaaa-aaaag-acmvq-cai",
-    "local": "ci35a-cqaaa-aaaag-acmvq-cai"
+    "ic": "ci35a-cqaaa-aaaag-acmvq-cai"
   },
   "vault": {
-    "ic": "qk232-hqaaa-aaaag-aciia-cai",
-    "local": "qk232-hqaaa-aaaag-aciia-cai"
+    "ic": "qk232-hqaaa-aaaag-aciia-cai"
+  },
+  "fund": {
+    "ic": "cp23u-piaaa-aaaag-acmva-cai"
+  },
+  "fund_promo": {
+    "ic": "cbyw4-uyaaa-aaaag-acmua-cai"
+  },
+  "treasury": {
+    "ic": "vne52-waaaa-aaaag-aciva-cai"
   }
 }
