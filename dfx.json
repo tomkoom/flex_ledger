@@ -24,6 +24,10 @@
     "treasury": {
       "main": "src/treasury.mo",
       "type": "motoko"
+    },
+    "og_claim": {
+      "main": "src/og_claim.mo",
+      "type": "motoko"
     }
   },
   "defaults": {
